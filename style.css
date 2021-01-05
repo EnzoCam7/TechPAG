@@ -1,0 +1,7 @@
+*{ /*Para todos los eltos en la pagina*/
+        box-sizing:border-box; /*Espaciado int y ext usan UN solo espaciado*/
+        margin: 0; /*Sin margenes hacia afuera*/
+        padding: 0; /*Sin espaciados hacia dentro*/
+        
+
+}
