@@ -61,3 +61,42 @@
         flex: 1;
         margin-left: 20px;
 }
+
+/*ShowCase*/
+hr{
+        margin: 10px 0px;
+}
+
+.showcase{
+        width: 100%;
+        height: 550px;
+        background: url(./img/showcase2.jpg) no-repeat center center/cover; /*De esta forma, abarca todo el container*/
+        padding-bottom: 50px; /*Separado de los demas eltos*/
+        display: flex; /*Centra el texto dentro*/
+        flex-direction: column; /*El texto este centrado debajo*/
+        align-items: center;
+        justify-content: flex-end; /*Justifcado abajo*/
+
+}
+
+.btn{
+        cursor: pointer;/*Aparece icono al poner el cursor*/
+        display: inline-block;
+        border: 0;
+        font-weight: bold;
+        padding: 10px 20px;
+        background: #262626;
+        color: white;
+        font-size: 15px;
+        border-bottom: 1px solid white;/*Espaciado hacia abajo*/
+        margin: 10px 0px;
+    }
+
+.btn:hover{
+        opacity: .7; /*Reduce el color al pasar cursor por encima*/
+}
+
+.showcase h2,
+.showcase p{
+        margin-bottom: 10px;
+}
