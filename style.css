@@ -2,6 +2,62 @@
         box-sizing:border-box; /*Espaciado int y ext usan UN solo espaciado*/
         margin: 0; /*Sin margenes hacia afuera*/
         padding: 0; /*Sin espaciados hacia dentro*/
-        
+    }
 
+    body{
+        background-color: black;
+        color: white;
+        background-color: #212122;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%239d0b0b' fill-opacity='0.95'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        font-size: 16px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    a{
+            color: white;
+            text-decoration: none; /*Quita el subrayado*/ 
+    }
+
+    ul{
+        list-style: none;
+    }
+
+    .container{
+            width: 90%;
+            margin: auto;
+    }
+
+/*Navigation*/
+.nav-main{
+        font-size: 17px;
+        display: flex;
+        justify-content: space-between; /*Usa todo el ancho disponible*/
+        align-items: center;
+        height: 60px;
+        padding: 20px 0px;
+}
+
+.nav-brand{
+        width: 50px;
+}
+
+/*Nav left*/
+.nav-main ul{
+        display: flex; /*Acomoda cada UL una al lado de la otra*/
+}
+
+.nav-main ul li{
+        padding: 10px; /*Separa cada uno de los lI por 10px*/
+}
+.nav-main ul li a{
+        padding: 2px;
+}
+
+.nav-main ul li a:hover{ /*Al pasar encima el cursor, cada LI tendrá un estilo de subrayado*/
+    border-bottom: 2px solid white;
+}
+
+.nav-main ul.nav-menu{ /*Posiciona al UL a la izquierda y con una breve separacion de la imagen*/
+        flex: 1;
+        margin-left: 20px;
 }
